@@ -9,9 +9,9 @@ function NavBar() {
           <Container>
             <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="contact">Contact</Nav.Link>
-              <Nav.Link href="Projects">Projects</Nav.Link>
-              <Nav.Link href="About">About</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/Projects">Projects</Nav.Link>
+              <Nav.Link href="/About">About</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
