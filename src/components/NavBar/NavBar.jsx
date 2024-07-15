@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -10,9 +11,9 @@ function NavBar() {
         <Container>
           <Navbar.Brand to="/">Home</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link to="/contact">Contact</Nav.Link>
-            <Nav.Link to="/projects">Projects</Nav.Link>
-            <Nav.Link to="/about">About</Nav.Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/about">About</Link>
           </Nav>
         </Container>
       </Navbar>
