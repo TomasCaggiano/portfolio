@@ -14,7 +14,7 @@ const Projects = () => {
           el sitio permite a los usuarios buscar, filtrar y agregar artículos al carrito de manera intuitiva. El diseño responsive asegura una navegación consistente en dispositivos móviles y de escritorio, mientras que la configuración optimizada con Vite facilita un despliegue eficiente en GitHub Pages. 
           Con funcionalidades esenciales como la gestión de carritos y un proceso de compra simulado, este proyecto no solo exhibe competencia en desarrollo front-end, sino también la capacidad para implementar soluciones escalables y adaptativas para negocios de e-commerce."
           link="Ver más"
-          url="https://www.example.com"
+          url="https://tomascaggiano.github.io/e-commerce-ap-/"
         />
 
         <Products
