@@ -16,7 +16,7 @@ const Home = () => {
       } else {
         clearInterval(interval);
       }
-    }, 250); // Ajusta la velocidad de la animación aquí (milisegundos)
+    }, 150); // Ajusta la velocidad de la animación aquí (milisegundos)
 
     return () => clearInterval(interval);
   }, [fullname]);
@@ -31,8 +31,8 @@ const Home = () => {
       } else {
         clearInterval(interval);
       }
-    }, 250); // Ajusta la velocidad de la animación aquí (milisegundos)
-  }, 3250)
+    }, 150); // Ajusta la velocidad de la animación aquí (milisegundos)
+  }, 2100)
     return () => clearInterval(inicio);
   }, [fulltext]);
   
