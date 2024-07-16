@@ -41,6 +41,7 @@ const Home = () => {
       <div>
       <h1>{name}</h1>
       <h2>{text}</h2>
+      <p>Bienvenido a mi portafolio. Soy un desarrollador Front-end apasionado por crear experiencias web dinámicas y funcionales.</p>
       </div>
       <img src='/images/foto.jpeg' alt="foto" />
     </div>
